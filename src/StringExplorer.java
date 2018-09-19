@@ -22,5 +22,17 @@ public class StringExplorer
 		System.out.println(sample.charAt(25));
 		int notFoundPsn = sample.indexOf("slow"); 
 		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+		
+		// Experiment with compare to 
+		String example1 = "!";
+		String example2 = "?";
+		System.out.println(example1.compareTo(example2));
+		
+		// experiment with substring
+		String starter = "start middle end";
+		int psn1 = starter.indexOf("middle");
+		System.out.println(starter.substring(psn1, psn1+6));
+		
+
 	}
 }
